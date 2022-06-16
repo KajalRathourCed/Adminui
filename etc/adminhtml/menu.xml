@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="//www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Ced_Adminui::menu" title="Demo" module="Ced_Adminui" sortOrder="50" resource="Ced_Adminui::menu" />
+        <add id="Ced_Adminui::menu_item" title="Employee" module="Ced_Adminui" sortOrder="20" parent="Ced_Adminui::menu" action="adminui/index/grid" resource="Ced_Adminui::menu_item"/>
+    </menu>
+</config>
